@@ -1,0 +1,105 @@
+.text-titulo {
+  font-family: "Quicksand"; }
+
+.text-contenido {
+  font-family: "Open Sans"; }
+
+.bg-verde {
+  background-color: #279434; }
+
+.bg-gris {
+  background-color: #F6F6F9; }
+
+.bg-azul {
+  background-color: #11202A; }
+
+#hero {
+  position: relative; }
+  #hero:before {
+    background-image: linear-gradient(135deg, #0B212B 0%, #1D394B 100%);
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: .7; }
+
+.img-about {
+  width: 600px;
+  height: 400px; }
+
+.img-amenidades {
+  margin: 0 auto;
+  width: 65px;
+  height: 65px; }
+
+.gallery-amenidades {
+  max-width: 1200px; }
+
+.bg-amenidades-gallery {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  width: 280px;
+  border-radius: 5px;
+  overflow: hidden; }
+  .bg-amenidades-gallery:before {
+    background-image: linear-gradient(135deg, #0B212B 0%, #1D394B 100%);
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: .6; }
+
+#cta {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #cta:before {
+    background-image: linear-gradient(135deg, #0B212B 0%, #1D394B 100%);
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: .6; }
+
+#cta-text {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.carousel-gallery {
+  max-width: 1200px;
+  margin: 50px auto; }
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  color: white; }
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  color: white; }
+
+#packages #packages-grid {
+  max-width: 1200px; }
+  #packages #packages-grid .package .img-room {
+    height: 250px; }
+
+.amenidades-pack img {
+  width: 30px;
+  height: 30px; }
+
+#contacto {
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.forma-contacto {
+  max-width: 550px;
+  margin-top: -150px; }
+
+/*# sourceMappingURL=styles.css.map */
